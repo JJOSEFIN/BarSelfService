@@ -7,7 +7,7 @@ the foundation for most of the documentation samples and potentially a good star
 ## Prerequisites
 
 Node.js and npm are essential to Angular development. 
-    
+
 [Get it now](https://docs.npmjs.com/getting-started/installing-node) if it's not already installed on your machine.
 
 
