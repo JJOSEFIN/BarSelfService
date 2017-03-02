@@ -6,9 +6,7 @@ the foundation for most of the documentation samples and potentially a good star
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular development. 
-
-[Get it now](https://docs.npmjs.com/getting-started/installing-node) if it's not already installed on your machine.
+Node.js and npm are essential to Angular development. [Get it now](https://docs.npmjs.com/getting-started/installing-node) if it's not already installed on your machine.
 
 
 ## Getting started
@@ -21,7 +19,73 @@ npm start
 ```
 
 
-### npm scripts
+## HERE WE NEED TO WRITE INFO ABOUT THE API AND EVERYTING IV'E MISSED!
+
+[PLACEHOLDER]
+
+
+## You're the boss
+
+Feel free to change as much as you'd like. Maybe don't use any of our `HTML`. Maybe switch to `SASS`. Maybe keep the `CSS` as "vanilla". **But remember, focus on the `angular` part of this challange.** You're the boss!
+
+
+## HTML
+
+We're helping you with some `HTML` and `CSS` so you can focus on the `angular` part of the challenge.
+
+### Items
+
+One item can look like this:
+```html
+<li class="item">
+  <figure>
+    <img src="[URL]" alt="[TITLE]">
+  </figure>
+  <figcaption class="summary">
+    <h2 class="title">[TITLE]</h2>
+    <span class="price fa-usd">[PRICE]</span>
+    <span class="category">[CATEGORY]</span>
+    <span class="description">[DESCRIPTION]</span>
+    <button class="add-to-cart fa-shopping-cart">[TEXT]</button>
+  </figcaption>
+</li>
+```
+
+With the item inside `.items` you can choose between a `.list` class or a `.cards` class on the items container to get different layouts.
+
+Example:
+```html
+<main role="main" class="container wrapper">
+  <ol class="items list">
+    <li class="item">[...]</li>
+    <li class="item">[...]</li>
+    <li class="item">[...]</li>
+  </ol>
+</main>
+```
+
+
+### Search box
+
+If you'd like a search box in your app you could use:
+```html
+<section class="search">
+  <div class="wrapper">
+    <form>
+      <input type="search" placeholder="What can I get you?">
+      <button type="submit" class="fa-search"></button>
+    </form>
+  </div>
+</section>
+```
+
+
+## FontAwesome icons
+
+If you want some fancy icons you can [browse them here](http://fontawesome.io/icons/).
+
+
+## npm scripts
 
 We've captured many of the most useful commands in npm scripts defined in the `package.json`:
 
