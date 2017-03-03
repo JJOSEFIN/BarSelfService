@@ -110,11 +110,12 @@ input[type="search"]:focus + button[type="submit"] {
 }
 
 .container {
-  margin: 40px auto 0;
+  margin: 0 auto;
   padding-top: 70px;
 }
 
 .search + .container {
+  margin-top: 40px;
   padding-top: 0;
 }
 
