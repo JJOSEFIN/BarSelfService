@@ -1,8 +1,20 @@
-# Claremont BarSelfservice
+# Claremont Bar Self Service
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
 
+## The Challenge
+
+The goal of the evening is to produce a self service bar. The customer should be able to see the entire bar (drinks list), and order as many drinks as they like. To order the drink, the customer puts the drinks of choice in their shopping cart, and when they're satisfied they go to the checkout area. In the checkout area, the customer can view their shopping cart, and finilize their purchase. 
+
+Your challange is to build the parts that constitues a complete bar: 
+* The bar itself (a drinks list with information about each drink, price etc.), 
+* The shopping cart, with the customer's ordered drinks (no backend support, keep the customers drink in memory, or build a cookie based solution if you like)
+* The ability to "purchase" your entire shopping cart (again no backend support, you will have to mock the finialization and present to customer)
+
+After you have built each part, call a supervisor/assistant and they will review your solution. The first group to finalize each part will earn a prize!
+
+**The first team to build the complete bar wins!**
 
 ## Prerequisites
 
@@ -15,7 +27,7 @@ the foundation for most of the documentation samples and potentially a good star
 
 ## Getting started
 
-``git clone`` this repository to your local machine. `cd` to the cloned directory and install the npm packages described in the `package.json` and verify that it works:
+``git clone`` this repository to your local machine. `cd` to the cloned directory and install the npm packages and start the server:
 
 ```shell
 npm install
@@ -25,7 +37,7 @@ npm start
 
 ## API
 
-The backend API for drinks is located at http://claremontbarwebapi.azurewebsites.net. To browse available endpoints, go to http://claremontbarwebapi.azurewebsites.net/Help.
+The backend API for drinks is located at http://claremontbarwebapi.azurewebsites.net. To browse available endpoints, go to http://claremontbarwebapi.azurewebsites.net/Help. Focus on the `get/Products` endpoint at first, to get all available drinks, and look into other endpoints later if you have the time. 
 
 
 ## You're the boss
