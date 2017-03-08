@@ -6,12 +6,16 @@ the foundation for most of the documentation samples and potentially a good star
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular development. [Get it now](https://docs.npmjs.com/getting-started/installing-node) if it's not already installed on your machine.
+* [Git](https://git-scm.com/downloads).
+
+* Node.js and npm are essential to Angular development. [Get it now](https://docs.npmjs.com/getting-started/installing-node) if it's not already installed on your machine.
+
+* Your IDE or text editor of choice: [Brackets](http://brackets.io/), [Atom](https://atom.io/), [IntelliJ IDEA](https://www.jetbrains.com/idea/download/), [Sublime](https://www.sublimetext.com/) or whatever you prefer. 
 
 
 ## Getting started
 
-Install the npm packages described in the `package.json` and verify that it works:
+``git clone`` this repository to your local machine. `cd` to the cloned directory and install the npm packages described in the `package.json` and verify that it works:
 
 ```shell
 npm install
@@ -19,9 +23,9 @@ npm start
 ```
 
 
-## HERE WE NEED TO WRITE INFO ABOUT THE API AND EVERYTING IV'E MISSED!
+## API
 
-[PLACEHOLDER]
+The backend API for drinks is located at http://claremontbarwebapi.azurewebsites.net. To browse available endpoints, go to http://claremontbarwebapi.azurewebsites.net/Help.
 
 
 ## You're the boss
