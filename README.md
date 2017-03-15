@@ -9,8 +9,8 @@ The goal of the evening is to produce a self service bar. The customer should be
 
 Your challange is to build the parts that constitues a complete bar: 
 * The bar itself (a drinks list with information about each drink. Must contain drink name and price.)
-* The shopping cart, with the customer's ordered drinks (no backend support, keep the customers drink in memory, or build a cookie based solution if you like)
-* The ability to "purchase" your entire shopping cart (again no backend support, you will have to mock the finialization and present to customer)
+* The shopping cart, with the customer's ordered drinks (no backend support, perhaps use `LocalStorage` to "persist" the shopping cart items)
+* The ability to "purchase" your entire shopping cart (again no backend support, just emptying the cart and present a success message to the user is enough for this challange)
 
 After you have built each part, call a supervisor/assistant and they will review your solution. The first group to finalize each part will earn a prize!
 
