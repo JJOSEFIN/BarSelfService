@@ -12,9 +12,9 @@ Your challange is to build the parts that constitues a complete bar:
 * The shopping cart, with the customer's ordered drinks (no backend support, perhaps use `LocalStorage` to "persist" the shopping cart items)
 * The ability to "purchase" your entire shopping cart (again no backend support, just emptying the cart and present a success message to the user is enough for this challange)
 
-After you have built each part, call a supervisor/assistant and they will review your solution. The first group to finalize each part will earn a prize!
+After you have built each part, call a supervisor/assistant and they will review your solution and grade it based on presented criterias.
 
-**The first team to build the complete bar wins!**
+**The team with the highest score at the end of the evening wins!**
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ npm start
 
 ## API
 
-The backend API for drinks is located at http://claremontbarwebapi.azurewebsites.net. To browse available endpoints, go to http://claremontbarwebapi.azurewebsites.net/Help. Focus on the `get/Products` endpoint at first, to get all available drinks, and look into other endpoints later if you have the time. 
+The backend API for drinks is located at http://claremontbarwebapi.azurewebsites.net. To browse available endpoints, go to http://claremontbarwebapi.azurewebsites.net/Help. The `get/Products` is probably the only endpoint you are going to use, as there is no API support for adding to cart/purchasing products.
 
 
 ## You're the boss
@@ -98,21 +98,11 @@ If you'd like a search box in your app you could use:
 
 ## FontAwesome icons
 
-If you want some fancy icons you can [browse them here](http://fontawesome.io/icons/).
+If you want some fancy icons you can [browse them here](http://fontawesome.io/icons/). The script is already loaded into the application by default via FontAwesome CDN.
 
 
 ## npm scripts
 
-We've captured many of the most useful commands in npm scripts defined in the `package.json`:
-
 * `npm start` - runs the compiler and a server at the same time, both in "watch mode".
-* `npm run tsc` - runs the TypeScript compiler once.
-* `npm run tsc:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
-* `npm run lite` - runs the [lite-server](https://www.npmjs.com/package/lite-server), a light-weight, static file server, written and maintained by
-[John Papa](https://github.com/johnpapa) and
-[Christopher Martin](https://github.com/cgmartin)
-with excellent support for Angular apps that use routing.
-
-Here are the test related scripts:
 * `npm test` - compiles, runs and watches the karma unit tests
 * `npm run e2e` - run protractor e2e tests, written in JavaScript (*e2e-spec.js)
