@@ -5,12 +5,12 @@ the foundation for most of the documentation samples and potentially a good star
 
 ## The Challenge
 
-The goal of the evening is to produce a self service bar. The customer should be able to see the entire bar (drinks list), and order as many drinks as they like. To order the drink, the customer puts the drinks of choice in their shopping cart, and when they're satisfied they go to the checkout area. In the checkout area, the customer can view their shopping cart, and finilize their purchase. 
+The goal of the evening is to produce a self service bar. The customer should be able to see the entire bar (drinks list), and order as many drinks as they like. To order the drink, the customer puts the drinks of choice in their shopping cart, and when they're satisfied they go to the checkout area. In the checkout area, the customer can view their shopping cart, and finalize their purchase.
 
-Your challange is to build the parts that constitues a complete bar: 
+Your challenge is to build the parts that together constitues a complete bar: 
 * The bar itself (a drinks list with information about each drink. Must contain drink name and price.)
-* The shopping cart, with the customer's ordered drinks (no backend support, perhaps use `LocalStorage` to "persist" the shopping cart items)
-* The ability to "purchase" your entire shopping cart (again no backend support, just emptying the cart and present a success message to the user is enough for this challange)
+* The shopping cart, with the customer's ordered drinks (no backend support, perhaps use `LocalStorage` to "persist" the shopping cart items). The customer should be able to see the contents of their cart. 
+* The ability to "purchase" your entire shopping cart (again no backend support, just emptying the cart and present a success message to the user is enough for this challenge)
 
 After you have built each part, call a supervisor/assistant and they will review your solution and grade it based on presented criterias.
 
@@ -42,7 +42,7 @@ The backend API for drinks is located at http://claremontbarwebapi.azurewebsites
 
 ## You're the boss
 
-Feel free to change as much as you'd like. Maybe don't use any of our `HTML`. Maybe switch to `SASS`. Maybe keep the `CSS` as "vanilla". **But remember, focus on the `angular` part of this challange.** You're the boss!
+Feel free to change as much as you'd like. Maybe don't use any of our `HTML`. Maybe switch to `SASS`. Maybe keep the `CSS` as "vanilla". **But remember, focus on the `angular` part of this challenge.** You're the boss!
 
 
 ## HTML
