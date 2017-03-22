@@ -27,12 +27,17 @@ After you have built each part, call a supervisor/assistant and they will review
 
 ## Getting started
 
-``git clone`` this repository to your local machine. `cd` to the cloned directory and install the npm packages and start the server:
+``Fork`` this repository to your repositories. ``git clone`` that repository to your local machine. `cd` to the cloned directory and install the npm packages and start the server:
 
 ```shell
 npm install
 npm start
 ```
+
+
+## When you're done
+
+Create a `Pull request` at [github.com/ClaremontAB/BarSelfService/pulls](https://github.com/ClaremontAB/BarSelfService/pulls) with your teams solution and notify the organizers.
 
 
 ## API
