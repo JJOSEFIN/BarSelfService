@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background:#000 !important;
   color: #333;
   font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background-color: #222;
+  background-color: #000;
   box-shadow: 0 2px 3px rgba(34, 34, 34, .2);
   color: #f5f5f5;
   font-size: 1rem;
@@ -127,8 +127,12 @@ input[type="search"]:focus + button[type="submit"] {
 }
 
   .items.list {
-    background: #fff;
+    background: #000;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  }
+
+  .item {
+    background: #000;
   }
 
   .item figure {
@@ -140,15 +144,13 @@ input[type="search"]:focus + button[type="submit"] {
    */
 
   .list .item {
+    background: #000;
     border-bottom: 1px solid #f5f5f5;
     height: 128px;
     padding: 4px 0;
     position: relative;
+    list-style: none;
   }
-
-    .list .item:hover {
-      background: #f5f5f5;
-    }
 
     .list .item > * {
       display: inline-block;
@@ -212,7 +214,6 @@ input[type="search"]:focus + button[type="submit"] {
    * Card styling for items
    */
   .cards .item {
-    background: #fff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     display: inline-block;
     font-size: .8rem;
@@ -274,7 +275,7 @@ input[type="search"]:focus + button[type="submit"] {
       }
 
 .add-to-cart {
-  background: linear-gradient(to bottom, rgb(156, 156, 156) 0%, rgb(140, 140, 140) 100%);
+  background:orange;
   border: 0;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
@@ -289,7 +290,8 @@ input[type="search"]:focus + button[type="submit"] {
 }
 
   .item:hover .add-to-cart {
-    background: linear-gradient(to bottom, rgba(50, 160, 80, 1) 0%, rgba(60, 150, 80, 1) 100%);
+    background: orange;
+    opacity: 0.8;
   }
 
   .add-to-cart:before {
@@ -298,7 +300,7 @@ input[type="search"]:focus + button[type="submit"] {
 
   .item:hover .add-to-cart:hover,
   .add-to-cart:focus {
-    background: linear-gradient(to bottom, rgba(50, 180, 100, 1) 0%, rgba(60, 150, 100, 1) 100%);
+    background: white;
   }
 
   .add-to-cart:active {
