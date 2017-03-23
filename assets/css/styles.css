@@ -129,10 +129,7 @@ input[type="search"]:focus + button[type="submit"] {
   .items.list {
     background: #000;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
-  }
-
-  .item {
-    background: #000;
+    padding: 20px;
   }
 
   .item figure {
@@ -145,11 +142,10 @@ input[type="search"]:focus + button[type="submit"] {
 
   .list .item {
     background: #000;
-    border-bottom: 1px solid #f5f5f5;
-    height: 128px;
     padding: 4px 0;
     position: relative;
     list-style: none;
+    height: 400px;
   }
 
     .list .item > * {
@@ -162,46 +158,43 @@ input[type="search"]:focus + button[type="submit"] {
       width: 130px;
     }
 
-      .list .item figure img {
-        height: 120px;
+      .list .item img {
+        height: 160px;
         left: 5px;
         margin-top: -60px;
-        position: absolute;
-        top: 50%;
         width: auto;
       }
 
     .list .item .summary {
-      font-size: .8rem;
-      width: calc(100% - 130px);
+      font-size: 1rem;
+      display: block
     }
 
     .list .item .title {
       margin: 15px 0 0;
+      color: deeppink;
     }
 
     .list .item .category,
     .list .item .price,
     .list .item .description {
       display: block;
+      color: deeppink;
     }
 
     .list .item .price {
-      font-weight: bold;
+      font-weight: normal;
     }
 
     .list .add-to-cart {
-      border-radius: 50%;
-      font-size: 0;
+      font-size: 12px;
       height: 60px;
       line-height: 60px;
-      margin: -30px 0 0;
       padding: 0;
-      position: absolute;
-      right: 30px;
+      margin-top: 20px;
+      display: block:
       text-align: center;
-      top: 50%;
-      width: 60px;
+      width: 120px;
     }
 
     .list .add-to-cart:before {
@@ -275,7 +268,7 @@ input[type="search"]:focus + button[type="submit"] {
       }
 
 .add-to-cart {
-  background:orange;
+  background:deeppink;
   border: 0;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
@@ -290,21 +283,15 @@ input[type="search"]:focus + button[type="submit"] {
 }
 
   .item:hover .add-to-cart {
-    background: orange;
-    opacity: 0.8;
+    background: darkturquoise;
   }
 
   .add-to-cart:before {
     margin-right: 8px;
   }
 
-  .item:hover .add-to-cart:hover,
-  .add-to-cart:focus {
-    background: white;
-  }
-
   .add-to-cart:active {
-    background: linear-gradient(to bottom, rgba(55, 160, 100, 1) 0%, rgba(55, 170, 100, 1) 100%);
+    background: blue;
     box-shadow: 0 0 9px rgba(0, 0, 0, .3);
   }
 
