@@ -3,7 +3,8 @@
 }
 
 body {
-  background:#000 !important;
+  background-image: url("/assets/images/bg.jpg");
+  background-size: cover;
   color: #333;
   font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -29,6 +30,9 @@ body {
   .header a {
     color: #f5f5f5;
     text-decoration: none;
+    font-size: 12px;
+    font-family: arial;
+    margin-left: 20px;
   }
 
     .header a:hover {
@@ -146,6 +150,7 @@ input[type="search"]:focus + button[type="submit"] {
     position: relative;
     list-style: none;
     height: 400px;
+    text-align: center;
   }
 
     .list .item > * {
@@ -161,7 +166,6 @@ input[type="search"]:focus + button[type="submit"] {
       .list .item img {
         height: 160px;
         left: 5px;
-        margin-top: -60px;
         width: auto;
       }
 
@@ -188,19 +192,19 @@ input[type="search"]:focus + button[type="submit"] {
 
     .list .add-to-cart {
       font-size: 12px;
-      height: 60px;
-      line-height: 60px;
+      height: 50px;
+      line-height: 50px;
       padding: 0;
       margin-top: 20px;
       display: block:
       text-align: center;
-      width: 120px;
+      width: 110px;
     }
 
     .list .add-to-cart:before {
       font-size: 1.4rem;
       line-height: inherit;
-      margin-right: 0;
+      margin-right: 10px;
     }
 
   /*
